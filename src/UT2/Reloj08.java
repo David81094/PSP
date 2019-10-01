@@ -5,18 +5,6 @@ import java.awt.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-/* Applet que muestra la hora actual actualizándose
- * cada segundo.
- *
- * Una applet no tiene método main(), podemos ejecutarla:
- * - desde Eclipse
- * - incluyendo <applet code="Reloj08.class" width="200" height="100"> </applet>
- * en un fichero HTML. El fichero HTML se puede abrir de dos formas:
- * * Desde un navegador (mostrará una web con la applet si están habilitadas)
- * * Desde la consola con el visor: appletviewer fichero.html
- *
- */
-
 @SuppressWarnings("serial")
 public class Reloj08 extends Applet implements Runnable {
     private Thread hilo = null;

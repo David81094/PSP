@@ -7,7 +7,6 @@ public class TIC_TAC {
         tic.start();
         tac.start();
     }
-
 }
 
 class Tic extends Thread {

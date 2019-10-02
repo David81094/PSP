@@ -12,6 +12,7 @@ public class Main {
 
         long initialTime = System.currentTimeMillis();
 
+        //Con hilos la cajera recibe por parametro el nombre, el cliente y el tiempo
         cajera1.procesarCompra(cliente1, initialTime);
         cajera2.procesarCompra(cliente2, initialTime);
 

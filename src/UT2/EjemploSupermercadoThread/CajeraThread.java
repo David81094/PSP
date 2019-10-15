@@ -1,4 +1,4 @@
-package EjemploSupermercadoThread;
+package UT2.EjemploSupermercadoThread;
 
 public class CajeraThread extends Thread {
 

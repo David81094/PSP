@@ -1,4 +1,4 @@
-package SincronizeHilos;
+package UT2.SincronizeHilos;
 
 public class HiloB extends Thread{
 

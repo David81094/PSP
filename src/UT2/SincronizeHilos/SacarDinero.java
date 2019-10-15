@@ -1,12 +1,11 @@
-package SincronizeHilos;
+package UT2.SincronizeHilos;
 
 public class SacarDinero extends Thread {
 
     private Cuenta c;
-    String nom;
 
     public SacarDinero(String nom, Cuenta c) {
-        this.nom = nom;
+        super(nom);
         this.c = c;
     }
 

@@ -1,4 +1,4 @@
-package EjemploSupermercado;
+package UT2.EjemploSupermercado;
 
 public class Cajera {
 

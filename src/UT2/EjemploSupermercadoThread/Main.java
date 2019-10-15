@@ -1,7 +1,4 @@
-package EjemploSupermercadoThread;
-
-import EjemploSupermercado.Cajera;
-import EjemploSupermercado.Cliente;
+package UT2.EjemploSupermercadoThread;
 
 public class Main {
 

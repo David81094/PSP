@@ -12,7 +12,7 @@ public class CajeraThread extends Thread {
         this.time = time;
     }
 
-
+    //El metodo syncronized no se puede añadir al metodo run como tal, sino a los metodos que se usan dentro del mismo
     public void run() {
         System.out.println("La cajera " + this.nombre + " comienza a procesar la compra del cliente: " + c.getNombre() + ", en el tiempo " + (System.currentTimeMillis() - time) / 1000 + "seg");
 

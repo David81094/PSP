@@ -22,10 +22,7 @@ public class ej3Y4 {
             procesoLibro x = new procesoLibro(i);
             x.start();
         }
-
-
     }
-
 
     static class procesoLibro extends Thread{
         File f;
@@ -60,9 +57,6 @@ public class ej3Y4 {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-
-
-
         }
     }
 

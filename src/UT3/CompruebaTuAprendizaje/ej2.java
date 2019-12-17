@@ -8,7 +8,6 @@ public class ej2 {
             Thread h = new Thread(new hilo2("H"+i));
             h.start();
         }
-
     }
 
     static class hilo2 implements Runnable{

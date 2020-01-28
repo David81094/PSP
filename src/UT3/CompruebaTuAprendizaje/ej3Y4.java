@@ -7,18 +7,16 @@ public class ej3Y4 {
 
     public static void main(String[] args) throws IOException {
 
-        ArrayList<File> ficheros = new ArrayList<>();
-        File f1 = new File("prueba1.txt");
-        File f2 = new File("prueba2.txt");
-        File f3 = new File("prueba3.txt");
+        ArrayList<File> archivos = new ArrayList<>();
+        File archivo1 = new File("prueba1.txt");
+        File archivo2 = new File("prueba2.txt");
+        File archivo3 = new File("prueba3.txt");
 
+        archivos.add(archivo1);
+        archivos.add(archivo2);
+        archivos.add(archivo3);
 
-        ficheros.add(f1);
-        ficheros.add(f2);
-        ficheros.add(f3);
-
-
-        for (File i : ficheros){
+        for (File i : archivos){
             procesoLibro x = new procesoLibro(i);
             x.start();
         }

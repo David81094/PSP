@@ -51,7 +51,7 @@ public class FTP implements ActionListener {
 
 
 
-            app.client.setFileType(FTP.BINARY_FILE_TYPE);
+//            app.client.setFileType(FTP.BINARY_FILE_TYPE);
         } catch (Exception e) { e.printStackTrace();
         }
 

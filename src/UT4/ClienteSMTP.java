@@ -12,7 +12,7 @@ public class ClienteSMTP {
         SMTPClient client = new SMTPClient();
         try {
             int respuesta;
-            //NOS CONECTAMOS AL PUERTO 25
+
             client.connect("localhost");
             System.out.print(client.getReplyString());
             respuesta = client.getReplyCode();
@@ -23,9 +23,6 @@ public class ClienteSMTP {
                 System.exit(1);
             }
 
-            // REALIZAR ACCIONES, por ejemplo enviar un correo
-
-            // NOS DESCONECTAMOS
             client.disconnect();
 
         } catch (IOException e) {

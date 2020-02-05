@@ -1,6 +1,8 @@
 package UT4;
 
-public class View {
+import javax.swing.*;
+
+public class View extends JFrame {
 
     private javax.swing.JButton btnSubir;
     private javax.swing.JButton btnBajar;
@@ -10,12 +12,12 @@ public class View {
     /**
      * Creates new form view
      */
-    public View(App_Ftp app) {
+    public View(FTP app) {
         initComponents(app);
     }
 
 
-    private void initComponents(App_Ftp app) {
+    private void initComponents(FTP app) {
 
         jPanel1 = new javax.swing.JPanel();
         btnBajar = new javax.swing.JButton();

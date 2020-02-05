@@ -1,6 +1,8 @@
 package UT4;
 
-public class FPChooser {
+import javax.swing.*;
+
+public class FPChooser extends JFrame {
 
     private javax.swing.JFileChooser fChooser;
 

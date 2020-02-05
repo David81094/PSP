@@ -4,9 +4,10 @@ import org.apache.commons.net.ftp.FTPClient;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.io.*;
 
-public class FTP {
+public class FTP implements ActionListener {
 
     private static FTP app;
     FTPClient client;
@@ -173,5 +174,4 @@ public class FTP {
         }
 
     }
-
 }

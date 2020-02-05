@@ -1,5 +1,11 @@
 package UT4;
 
+import org.apache.commons.net.smtp.SMTPClient;
+import org.apache.commons.net.smtp.SMTPReply;
+
+import java.io.IOException;
+import java.net.SocketException;
+
 public class ClienteSMTP {
 
     public static void main(String[] args) {
@@ -28,6 +34,5 @@ public class ClienteSMTP {
             System.exit(2);
         }
 
-    }//main
-
+    }
 }

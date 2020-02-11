@@ -10,12 +10,10 @@ public class PinPong {
 }
 
 class Ping extends Thread {
-
     @Override
     public void run() {
         while (true) {
             try {
-
                 System.out.println("Ping");
                 sleep(1000);
             }catch (InterruptedException e){
